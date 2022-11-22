@@ -1,0 +1,40 @@
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+/* adaptacion a dispositivos */
+@media (max-width: 750px) {
+  .seccion-perfil-usuario .lista-datos {
+      width: 100%;
+  }
+
+  .seccion-perfil-usuario .perfil-usuario-portada,
+  .seccion-perfil-usuario .perfil-usuario-body {
+      width: 95%;
+  }
+
+  .seccion-perfil-usuario .redes-sociales {
+      position: relative;
+      flex-direction: row;
+      width: 100%;
+      left: 0;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+      justify-content: center
+  }
+
+  .seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
+      margin-left: 1rem;
+      margin-top: 0;
+  }
+}
+
+

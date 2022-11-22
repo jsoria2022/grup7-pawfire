@@ -1,0 +1,47 @@
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+
+.container {  
+    background: rgb(45, 41, 41);
+    opacity: 0.8;
+    min-height: 80vh;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 10em;
+    padding-right: 10em;
+
+}
+p {
+    color:rgb(255, 255, 255);
+    height: 250px;
+    line-height: 25px;
+    font-family: arial;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+}
+h2 {
+    color:rgb(255, 255, 255);
+    height: 150px;
+    line-height: 30px;
+    font-family: arial;
+    text-align: center;
+    position: absolute;
+    top: 21%;
+}
+
+body{
+  height:665px;
+  background-image: url("../imagenes/backImg.jpg");
+  background-size: 100rem;
+  min-height: 100vh;
+  display: flex;
+}
